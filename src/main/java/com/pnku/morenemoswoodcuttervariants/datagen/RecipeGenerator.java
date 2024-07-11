@@ -5,7 +5,7 @@ import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
 import com.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.VanillaRecipeProvider;
 import net.minecraft.item.Item;
@@ -22,6 +22,7 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
+import java.util.function.Consumer;
 
 import static com.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
 
@@ -32,11 +33,11 @@ public class RecipeGenerator extends FabricRecipeProvider {
     }
 
     @Override
-    public void generate(RecipeExporter exporter) {
+    public void generate(Consumer<RecipeJsonProvider> exporter) {
         createWoodCutterVariantsRecipe(exporter);
     }
 
-    private void createWoodCutterVariantsRecipe(RecipeExporter exporter) {
+    private void createWoodCutterVariantsRecipe(Consumer<RecipeJsonProvider> exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.ACACIA_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.ACACIA_LOGS)
@@ -51,7 +52,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_acacia_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_acacia_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.BAMBOO_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', Items.STRIPPED_BAMBOO_BLOCK)
@@ -66,7 +67,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_bamboo_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_bamboo_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.BIRCH_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.BIRCH_LOGS)
@@ -81,7 +82,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_birch_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_birch_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.CHERRY_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.CHERRY_LOGS)
@@ -96,7 +97,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_cherry_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_cherry_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.CRIMSON_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.CRIMSON_STEMS)
@@ -111,7 +112,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_crimson_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_crimson_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', Items.DARK_OAK_LOG)
@@ -126,7 +127,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_dark_oak_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_dark_oak_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.JUNGLE_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.JUNGLE_LOGS)
@@ -141,7 +142,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_jungle_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_jungle_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.MANGROVE_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.MANGROVE_LOGS)
@@ -156,7 +157,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_mangrove_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_mangrove_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.SPRUCE_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.SPRUCE_LOGS)
@@ -171,7 +172,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_spruce_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_spruce_plus"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModVariantBlocks.WARPED_WOODCUTTER_BLOCK)
                 .input('I', Items.IRON_INGOT)
                 .input('#', ItemTags.WARPED_STEMS)
@@ -186,6 +187,6 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .pattern(" I ")
                 .pattern("#++")
                 .criterion("has_impossible", VanillaRecipeProvider.conditionsFromItem(Items.END_PORTAL_FRAME))
-                .offerTo(exporter, Identifier.of(MOD_ID, "nemos_woodcutter_from_warped_plus"));
+                .offerTo(exporter, new Identifier(MOD_ID, "nemos_woodcutter_from_warped_plus"));
     }
 }
