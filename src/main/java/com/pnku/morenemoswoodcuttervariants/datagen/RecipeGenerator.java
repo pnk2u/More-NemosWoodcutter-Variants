@@ -27,8 +27,8 @@ import static com.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.M
 
 public class RecipeGenerator extends FabricRecipeProvider {
 
-    public RecipeGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
-        super(output, registriesFuture);
+    public RecipeGenerator(FabricDataOutput output) {
+        super(output);
     }
 
     @Override

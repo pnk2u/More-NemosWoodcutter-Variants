@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:end_portal_frame"
+            "items": ["minecraft:end_portal_frame"]
           }
         ]
       },
