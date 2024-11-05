@@ -1,29 +1,22 @@
-package com.pnku.morenemoswoodcuttervariants.datagen;
+package de.pnku.morenemoswoodcuttervariants.datagen;
 
-import com.mojang.datafixers.types.templates.Tag;
-import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
-import com.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
+import de.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.VanillaRecipeProvider;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryWrapper;
 import com.nemonotfound.nemoswoodcutter.block.ModBlocks;
 import net.minecraft.registry.tag.ItemTags;
-import net.minecraft.registry.tag.TagBuilder;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
-import static com.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
+import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
 
 public class RecipeGenerator extends FabricRecipeProvider {
 

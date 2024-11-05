@@ -3,7 +3,7 @@
   "package": "com.pnku.morenemoswoodcuttervariants.screen" ,
   "compatibilityLevel": "JAVA_17" ,
   "mixins": [
-    "WoodcutterScreenHandlerMixin"
+    "de.pnku.morenemoswoodcuttervariants.screen.WoodcutterScreenHandlerMixin"
   ] ,
   "injectors": {
     "defaultRequire": 1

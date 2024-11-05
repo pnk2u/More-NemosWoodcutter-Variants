@@ -1,6 +1,6 @@
-package com.pnku.morenemoswoodcuttervariants;
+package de.pnku.morenemoswoodcuttervariants;
 
-import com.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
+import de.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

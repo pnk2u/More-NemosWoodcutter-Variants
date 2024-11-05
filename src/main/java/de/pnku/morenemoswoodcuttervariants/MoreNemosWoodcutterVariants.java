@@ -1,6 +1,6 @@
-package com.pnku.morenemoswoodcuttervariants;
+package de.pnku.morenemoswoodcuttervariants;
 
-import com.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
+import de.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
