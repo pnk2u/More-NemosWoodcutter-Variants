@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "tag": "minecraft:acacia_logs"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "#minecraft:acacia_logs",
+    "I": "minecraft:iron_ingot"
   },
   "pattern": [
     " I ",

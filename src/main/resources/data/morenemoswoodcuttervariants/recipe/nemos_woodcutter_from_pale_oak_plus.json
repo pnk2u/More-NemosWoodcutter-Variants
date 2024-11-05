@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#minecraft:spruce_logs",
+    "#": "minecraft:pale_oak_log",
     "+": [
       "minecraft:acacia_log",
       "minecraft:stripped_bamboo_block",
       "minecraft:birch_log",
       "minecraft:cherry_log",
       "minecraft:crimson_stem",
-      "minecraft:dark_oak_log",
       "minecraft:jungle_log",
       "minecraft:mangrove_log",
+      "minecraft:spruce_log",
       "minecraft:warped_stem"
     ],
     "I": "minecraft:iron_ingot"
@@ -22,6 +22,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "nemos_woodcutter:woodcutter"
+    "id": "nemos-woodcutter:woodcutter"
   }
 }
