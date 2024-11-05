@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_log"
+      "tag": "minecraft:dark_oak_logs"
     },
     "I": {
       "item": "minecraft:iron_ingot"
