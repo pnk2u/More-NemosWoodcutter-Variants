@@ -1,4 +1,4 @@
-package com.pnku.morenemoswoodcuttervariants.block;
+package de.pnku.morenemoswoodcuttervariants.block;
 
 import com.nemonotfound.nemoswoodcutter.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -15,8 +15,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
 
-import static com.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
-import static com.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.log;
+import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
+import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.log;
 
 public class ModVariantBlocks {
 
