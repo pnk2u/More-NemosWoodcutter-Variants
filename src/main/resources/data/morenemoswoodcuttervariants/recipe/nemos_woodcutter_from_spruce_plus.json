@@ -2,41 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "tag": "minecraft:spruce_logs"
-    },
+    "#": "#minecraft:spruce_logs",
     "+": [
-      {
-        "item": "minecraft:acacia_log"
-      },
-      {
-        "item": "minecraft:stripped_bamboo_block"
-      },
-      {
-        "item": "minecraft:birch_log"
-      },
-      {
-        "item": "minecraft:cherry_log"
-      },
-      {
-        "item": "minecraft:crimson_stem"
-      },
-      {
-        "item": "minecraft:dark_oak_log"
-      },
-      {
-        "item": "minecraft:jungle_log"
-      },
-      {
-        "item": "minecraft:mangrove_log"
-      },
-      {
-        "item": "minecraft:warped_stem"
-      }
+      "minecraft:acacia_log",
+      "minecraft:stripped_bamboo_block",
+      "minecraft:birch_log",
+      "minecraft:cherry_log",
+      "minecraft:crimson_stem",
+      "minecraft:dark_oak_log",
+      "minecraft:jungle_log",
+      "minecraft:mangrove_log",
+      "minecraft:warped_stem"
     ],
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "I": "minecraft:iron_ingot"
   },
   "pattern": [
     " I ",

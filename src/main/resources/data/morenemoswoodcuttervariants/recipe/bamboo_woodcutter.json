@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:stripped_bamboo_block"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "minecraft:stripped_bamboo_block",
+    "I": "minecraft:iron_ingot"
   },
   "pattern": [
     " I ",

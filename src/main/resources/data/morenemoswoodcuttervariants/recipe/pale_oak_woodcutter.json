@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#minecraft:warped_stems",
+    "#": "#minecraft:pale_oak_logs",
     "I": "minecraft:iron_ingot"
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "morenemoswoodcuttervariants:warped_woodcutter"
+    "id": "morenemoswoodcuttervariants:pale_oak_woodcutter"
   }
 }

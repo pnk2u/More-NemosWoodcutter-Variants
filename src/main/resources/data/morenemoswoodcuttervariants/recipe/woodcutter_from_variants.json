@@ -3,36 +3,17 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "morenemoswoodcuttervariants:acacia_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:bamboo_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:birch_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:cherry_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:crimson_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:dark_oak_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:jungle_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:mangrove_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:spruce_woodcutter"
-      },
-      {
-        "item": "morenemoswoodcuttervariants:warped_woodcutter"
-      }
+      "morenemoswoodcuttervariants:acacia_woodcutter",
+      "morenemoswoodcuttervariants:bamboo_woodcutter",
+      "morenemoswoodcuttervariants:birch_woodcutter",
+      "morenemoswoodcuttervariants:cherry_woodcutter",
+      "morenemoswoodcuttervariants:crimson_woodcutter",
+      "morenemoswoodcuttervariants:dark_oak_woodcutter",
+      "morenemoswoodcuttervariants:pale_oak_woodcutter",
+      "morenemoswoodcuttervariants:jungle_woodcutter",
+      "morenemoswoodcuttervariants:mangrove_woodcutter",
+      "morenemoswoodcuttervariants:spruce_woodcutter",
+      "morenemoswoodcuttervariants:warped_woodcutter"
     ]
   ],
   "result": {

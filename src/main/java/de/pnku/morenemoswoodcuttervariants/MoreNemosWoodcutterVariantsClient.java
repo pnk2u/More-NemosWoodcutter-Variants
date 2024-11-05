@@ -18,6 +18,7 @@ public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModVariantBlocks.CHERRY_WOODCUTTER_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModVariantBlocks.CRIMSON_WOODCUTTER_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModVariantBlocks.PALE_OAK_WOODCUTTER_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModVariantBlocks.JUNGLE_WOODCUTTER_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModVariantBlocks.MANGROVE_WOODCUTTER_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModVariantBlocks.SPRUCE_WOODCUTTER_BLOCK, RenderLayer.getCutout());

@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "tag": "minecraft:crimson_stems"
-    },
-    "I": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "#minecraft:crimson_stems",
+    "I": "minecraft:iron_ingot"
   },
   "pattern": [
     " I ",

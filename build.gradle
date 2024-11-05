@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.6-SNAPSHOT'
+	id 'fabric-loom' version '1.8-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -36,9 +36,9 @@ dependencies {
 
 	//Nemo's Woodcutter Main
 	
-	modCompileOnly("curse.maven:nemos-woodcutter-914549:5508715")
-	
-	// Uncomment the following line to enable the deprecated Fabric API modules. 
+	modImplementation("curse.maven:nemos-woodcutter-914549:5860689")
+
+	// Uncomment the following line to enable the deprecated Fabric API modules.
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
