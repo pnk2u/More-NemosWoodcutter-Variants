@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
-import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -17,6 +16,7 @@ import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
 
 import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
 import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.log;
+import static net.minecraft.block.enums.NoteBlockInstrument.*;
 
 public class ModVariantBlocks {
 
@@ -24,61 +24,61 @@ public class ModVariantBlocks {
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .mapColor(MapColor.ORANGE)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block BAMBOO_WOODCUTTER_BLOCK = registerBlock("bamboo_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.BAMBOO_WOOD)
                     .mapColor(MapColor.YELLOW)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block BIRCH_WOODCUTTER_BLOCK = registerBlock("birch_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .mapColor(MapColor.PALE_YELLOW)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block CHERRY_WOODCUTTER_BLOCK = registerBlock("cherry_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.CHERRY_WOOD)
                     .mapColor(MapColor.TERRACOTTA_WHITE)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block CRIMSON_WOODCUTTER_BLOCK = registerBlock("crimson_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.NETHER_WOOD)
                     .mapColor(MapColor.DULL_PINK)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block DARK_OAK_WOODCUTTER_BLOCK = registerBlock("dark_oak_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .mapColor(MapColor.BROWN)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block JUNGLE_WOODCUTTER_BLOCK = registerBlock("jungle_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .mapColor(MapColor.DIRT_BROWN)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block MANGROVE_WOODCUTTER_BLOCK = registerBlock("mangrove_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .mapColor(MapColor.RED)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block SPRUCE_WOODCUTTER_BLOCK = registerBlock("spruce_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.WOOD)
                     .mapColor(MapColor.SPRUCE_BROWN)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
     public static final Block WARPED_WOODCUTTER_BLOCK = registerBlock("warped_woodcutter",
             new WoodcutterBlock(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.NETHER_WOOD)
                     .mapColor(MapColor.DARK_AQUA)
-                    .instrument(Instrument.BASS)
+                    .instrument(BASS)
                     .strength(2.0f)));
 
 
