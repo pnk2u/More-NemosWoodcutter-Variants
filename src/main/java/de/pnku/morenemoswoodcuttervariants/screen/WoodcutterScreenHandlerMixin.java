@@ -1,14 +1,11 @@
-package com.pnku.morenemoswoodcuttervariants.screen;
+package de.pnku.morenemoswoodcuttervariants.screen;
 
 import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
 import com.nemonotfound.nemoswoodcutter.screen.WoodcutterScreenHandler;
-import com.pnku.morenemoswoodcuttervariants.block.ModVariantBlocks;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.screen.ScreenHandlerContext;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Mutable;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
