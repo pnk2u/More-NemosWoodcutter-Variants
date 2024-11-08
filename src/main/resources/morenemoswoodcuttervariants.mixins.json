@@ -1,9 +1,9 @@
 {
   "required": true ,
-  "package": "de.pnku.morenemoswoodcuttervariants.screen" ,
+  "package": "de.pnku.morenemoswoodcuttervariants.mixin" ,
   "compatibilityLevel": "JAVA_21" ,
   "mixins": [
-    "WoodcutterScreenHandlerMixin"
+    "screen.WoodcutterScreenHandlerMixin"
   ] ,
   "injectors": {
     "defaultRequire": 1
