@@ -1,4 +1,4 @@
-package de.pnku.morenemoswoodcuttervariants.screen;
+package de.pnku.morenemoswoodcuttervariants.mixin.screen;
 
 import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
 import com.nemonotfound.nemoswoodcutter.screen.WoodcutterScreenHandler;
