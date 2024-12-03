@@ -4,7 +4,7 @@
     "bottom": "morenemoswoodcuttervariants:block/birch_woodcutter_bottom",
     "top": "morenemoswoodcuttervariants:block/birch_woodcutter_top",
     "side": "morenemoswoodcuttervariants:block/birch_woodcutter_side",
-    "saw": "nemos-woodcutter:block/woodcutter_saw"
+    "saw": "nemos_woodcutter:block/woodcutter_saw"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],
