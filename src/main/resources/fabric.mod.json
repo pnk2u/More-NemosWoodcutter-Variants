@@ -23,16 +23,13 @@
 		],
 		"client": [
 			"de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariantsClient"
-		],
-		"fabric-datagen": [
-			"de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariantsDataGenerator"
 		]
 	},
 	"mixins": [
 		"morenemoswoodcuttervariants.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
+		"fabricloader": ">=0.16.0",
 		"minecraft": ">=1.20.5",
 		"java": ">=21",
 		"fabric-api": "*",
