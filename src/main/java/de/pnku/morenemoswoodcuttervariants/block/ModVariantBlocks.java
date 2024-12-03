@@ -17,7 +17,6 @@ import net.minecraft.world.level.material.MapColor;
 
 import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
 import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.log;
-import static net.minecraft.block.enums.NoteBlockInstrument.*;
 
 public class ModVariantBlocks {
 
