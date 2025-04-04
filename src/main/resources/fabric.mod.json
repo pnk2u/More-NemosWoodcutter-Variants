@@ -30,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.0",
-		"minecraft": ">={minecraft_version_0}",
+		"minecraft": ">=${minecraft_version_0}",
 		"java": ">=17",
 		"fabric-api": "*",
 		"nemos_woodcutter": "*"
