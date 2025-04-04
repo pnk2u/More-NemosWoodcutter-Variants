@@ -33,6 +33,6 @@
 		"minecraft": ">=${minecraft_version_0}",
 		"java": ">=17",
 		"fabric-api": "*",
-		"nemos_woodcutter": "*"
+		"nemos-woodcutter": "*"
 	}
 }

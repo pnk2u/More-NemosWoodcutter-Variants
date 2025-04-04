@@ -75,7 +75,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fapi_version}"
 
 	// Nemo's Woodcutter Main
-	modCompileOnly("maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version}")
+	modCompileOnly "maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version}"
+	modLocalRuntime "maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version}"
 }
 
 processResources {

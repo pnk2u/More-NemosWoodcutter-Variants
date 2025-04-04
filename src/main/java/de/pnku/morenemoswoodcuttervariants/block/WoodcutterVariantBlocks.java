@@ -22,6 +22,7 @@ import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MO
 import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.log;
 
 public class WoodcutterVariantBlocks {
+    public static List<Block> more_woodcutters = new ArrayList<>();
 
     public static final Block ACACIA_WOODCUTTER_BLOCK = registerBlock("acacia_woodcutter",
             new WoodcutterBlock(BlockBehaviour.Properties.of()
@@ -83,8 +84,6 @@ public class WoodcutterVariantBlocks {
                     .mapColor(MapColor.WARPED_STEM)
                     .instrument(NoteBlockInstrument.BASS)
                     .strength(2.0f)));
-
-    public static List<Block> more_woodcutters = new ArrayList<>();
 
 
     public static void registerBlocks() {
