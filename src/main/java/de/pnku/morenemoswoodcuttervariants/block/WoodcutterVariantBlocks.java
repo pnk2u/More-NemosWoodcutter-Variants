@@ -1,7 +1,7 @@
 package de.pnku.morenemoswoodcuttervariants.block;
 
-import com.nemonotfound.nemos.woodcutter.block.ModBlocks;
-import com.nemonotfound.nemos.woodcutter.block.WoodcutterBlock;
+import com.nemonotfound.nemoswoodcutter.block.ModBlocks;
+import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -15,10 +15,13 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
 import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.log;
 
-public class ModVariantBlocks {
+public class WoodcutterVariantBlocks {
 
     public static final Block ACACIA_WOODCUTTER_BLOCK = registerBlock("acacia_woodcutter",
             new WoodcutterBlock(BlockBehaviour.Properties.of()
@@ -81,37 +84,38 @@ public class ModVariantBlocks {
                     .instrument(NoteBlockInstrument.BASS)
                     .strength(2.0f)));
 
+    public static List<Block> more_woodcutters = new ArrayList<>();
 
 
     public static void registerBlocks() {
         log.info("Register woodcutter variant blocks");
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModBlocks.WOODCUTTER.get(),
-                ModVariantBlocks.ACACIA_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.ACACIA_WOODCUTTER_BLOCK,
-                ModVariantBlocks.BAMBOO_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.BAMBOO_WOODCUTTER_BLOCK,
-                ModVariantBlocks.BIRCH_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.BIRCH_WOODCUTTER_BLOCK,
-                ModVariantBlocks.CHERRY_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.CHERRY_WOODCUTTER_BLOCK,
-                ModVariantBlocks.CRIMSON_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.CRIMSON_WOODCUTTER_BLOCK,
-                ModVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK,
-                ModVariantBlocks.JUNGLE_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.JUNGLE_WOODCUTTER_BLOCK,
-                ModVariantBlocks.MANGROVE_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.MANGROVE_WOODCUTTER_BLOCK,
-                ModVariantBlocks.SPRUCE_WOODCUTTER_BLOCK));
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModVariantBlocks.SPRUCE_WOODCUTTER_BLOCK,
-                ModVariantBlocks.WARPED_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModBlocks.WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.ACACIA_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.ACACIA_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.BAMBOO_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.BAMBOO_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.BIRCH_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.BIRCH_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.CHERRY_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.CHERRY_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.CRIMSON_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.CRIMSON_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.JUNGLE_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.JUNGLE_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.MANGROVE_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.MANGROVE_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.SPRUCE_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.SPRUCE_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.WARPED_WOODCUTTER_BLOCK));
     }
 
     private static Block registerBlock(String path, Block block) {
         Block registeredBlock = Registry.register(BuiltInRegistries.BLOCK, ResourceLocation.tryBuild(MOD_ID, path), block);
         Registry.register(BuiltInRegistries.ITEM, ResourceLocation.tryBuild(MOD_ID, path), new BlockItem(block, new Item.Properties()));
-
+        more_woodcutters.add(registeredBlock);
         return registeredBlock;
     }
 }

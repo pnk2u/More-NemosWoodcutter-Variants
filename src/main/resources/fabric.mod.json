@@ -1,16 +1,16 @@
 {
 	"schemaVersion": 1,
-	"id": "morenemoswoodcuttervariants",
-	"version": "${version}",
-	"name": "More Nemo's Woodcutter Variants",
-	"description": "The Woodcutter Variants are just like the Woodcutter. Just made out of different wood!",
+	"id": "${mod_id}",
+	"version": "${mod_version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
 	"authors": [
 		"pnku",
 		"NemoNotFound"
 	],
 	"contact": {
 		"email": "contact@pnku.de",
-		"homepage": "https://pnku.de/",
+		"homepage": "https://www.pnku.de/",
 		"sources": "https://github.com/pnk2u/more-nemoswoodcutter-variants",
 		"issues": "https://github.com/pnk2u/more-nemoswoodcutter-variants/issues"
 	},
@@ -30,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.0",
-		"minecraft": ">=1.20.5",
+		"minecraft": ">={minecraft_version_0}",
 		"java": ">=21",
 		"fabric-api": "*",
 		"nemos_woodcutter": "*"
