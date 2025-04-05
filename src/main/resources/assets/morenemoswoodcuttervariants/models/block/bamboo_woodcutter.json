@@ -4,7 +4,7 @@
     "bottom": "morenemoswoodcuttervariants:block/bamboo_woodcutter_bottom",
     "top": "morenemoswoodcuttervariants:block/bamboo_woodcutter_top",
     "side": "morenemoswoodcuttervariants:block/bamboo_woodcutter_side",
-    "saw": "nemos_woodcutter:block/woodcutter_saw"
+    "saw": "minecraft:block/stonecutter_saw"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],
