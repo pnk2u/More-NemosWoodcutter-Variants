@@ -76,6 +76,7 @@ dependencies {
 
 	// Nemo's Woodcutter Main
 	modCompileOnly("maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version}")
+	modRuntimeOnly("maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version}")
 }
 
 processResources {
