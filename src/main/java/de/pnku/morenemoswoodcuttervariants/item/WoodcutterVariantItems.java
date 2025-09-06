@@ -1,6 +1,6 @@
 package de.pnku.morenemoswoodcuttervariants.item;
 
-import com.nemonotfound.nemos.woodcutter.block.ModBlocks;
+import com.devnemo.nemos.woodcutter.world.level.block.WoodcutterBlocks;
 import de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants;
 import de.pnku.morenemoswoodcuttervariants.block.WoodcutterVariantBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -24,9 +24,9 @@ public static final Item SPRUCE_WOODCUTTER_ITEM = registerBlock(WoodcutterVarian
 public static final Item WARPED_WOODCUTTER_ITEM = registerBlock(WoodcutterVariantBlocks.WARPED_WOODCUTTER_BLOCK);
 
     public static void registerItems() {
-        MoreNemosWoodcutterVariants.log.info("Register Woodcutter Variant items");
+        MoreNemosWoodcutterVariants.LOGGER.info("Register Woodcutter Variant items");
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModBlocks.WOODCUTTER.get(),
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterBlocks.WOODCUTTER.get(),
                 WoodcutterVariantBlocks.ACACIA_WOODCUTTER_BLOCK));
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.ACACIA_WOODCUTTER_BLOCK,
                 WoodcutterVariantBlocks.BAMBOO_WOODCUTTER_BLOCK));

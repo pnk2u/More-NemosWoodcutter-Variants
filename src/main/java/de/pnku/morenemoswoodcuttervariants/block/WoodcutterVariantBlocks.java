@@ -136,6 +136,8 @@ public class WoodcutterVariantBlocks {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.CRIMSON_WOODCUTTER_BLOCK,
                 WoodcutterVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK));
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.DARK_OAK_WOODCUTTER_BLOCK,
+                WoodcutterVariantBlocks.PALE_OAK_WOODCUTTER_BLOCK));
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.PALE_OAK_WOODCUTTER_BLOCK,
                 WoodcutterVariantBlocks.JUNGLE_WOODCUTTER_BLOCK));
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.JUNGLE_WOODCUTTER_BLOCK,
                 WoodcutterVariantBlocks.MANGROVE_WOODCUTTER_BLOCK));
