@@ -1,7 +1,7 @@
 package de.pnku.morenemoswoodcuttervariants.mixin.screen;
 
-import com.nemonotfound.nemos.woodcutter.screen.WoodcutterMenu;
-import com.nemonotfound.nemos.woodcutter.block.WoodcutterBlock;
+import com.devnemo.nemos.woodcutter.world.level.block.WoodcutterBlock;
+import com.devnemo.nemos.woodcutter.client.gui.screen.WoodcutterMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.ContainerLevelAccess;
 import org.spongepowered.asm.mixin.Final;
@@ -16,11 +16,11 @@ public abstract class WoodcutterMenuMixin {
 
     @Shadow
     @Final
-    private ContainerLevelAccess containerLevelAccess;
+    private ContainerLevelAccess access;
 
     @Inject(method = "stillValid", at = @At("HEAD"), cancellable = true)
     private void injectedStillValid(Player player, CallbackInfoReturnable<Boolean> info) {
-        if (containerLevelAccess.evaluate((world, pos) -> world.getBlockState(pos).getBlock() instanceof WoodcutterBlock, true)) {
+        if (access.evaluate((world, pos) -> world.getBlockState(pos).getBlock() instanceof WoodcutterBlock, true)) {
             info.setReturnValue(true);
         }
     }
