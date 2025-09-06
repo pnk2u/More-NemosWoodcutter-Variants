@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class MoreNemosWoodcutterVariants implements ModInitializer {
 
 	public static final String MOD_ID = "morenemoswoodcuttervariants";
-    public static final Logger log = LoggerFactory.getLogger(MOD_ID);
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
@@ -20,7 +20,7 @@ public class MoreNemosWoodcutterVariants implements ModInitializer {
 				})) {
 			throw new RuntimeException("\"More Nemo\'s Woodcutter Variants\" requires a version of \"Nemo\'s Woodcutter\" to be installed but couldn't find any.");
 		}
-		log.info("Nemo's Woodcutters come in all* colors!");
+		LOGGER.info("Nemo's Woodcutters come in all* colors!");
 		WoodcutterVariantBlocks.registerBlocks();
 	}
 }
