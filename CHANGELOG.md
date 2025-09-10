@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ## 1.14.0:
 ### NOTE: Requires **Nemoʼs Woodcutter** `1.14`
 > The only currently available version of **Nemoʼs Woodcutter** `1.14⁺` requires 1.21.8. 
