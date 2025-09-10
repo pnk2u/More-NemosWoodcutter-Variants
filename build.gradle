@@ -118,7 +118,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
 
-	// Nemo's Woodcutter Main
+	// Nemoʼs Woodcutter Main
 	modCompileOnly("maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version_id}")
 	modRuntimeOnly("maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version_id}")
 }

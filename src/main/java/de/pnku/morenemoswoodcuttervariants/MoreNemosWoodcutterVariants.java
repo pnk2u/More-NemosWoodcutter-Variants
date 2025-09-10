@@ -12,7 +12,7 @@ public class MoreNemosWoodcutterVariants implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Nemo's Woodcutters come in all* colors!");
+		LOGGER.info("Nemoʼs Woodcutters come in all* colors!");
 		WoodcutterVariantBlocks.registerBlocks();
 	}
 }

@@ -1,13 +1,13 @@
 # <img width='24' src="./src/main/resources/icon.png"> More Weapon Variants
 > ![Mod Icon](https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-NemosWoodcutter-Variants/pres/logo/logo_c.png)
 >
-> A simple mod adding wood variants for [Nemo's Woodcutter](https://www.modrinth.com/mod/Nemos-Woodcutter) block.
+> A simple mod adding wood variants for [Nemoʼs Woodcutter](https://www.modrinth.com/mod/Nemos-Woodcutter) block.
 
 ### Compatibility
 
 - Minecraft: `1.20.1`, `1.21(.1)`, `1.21.4`~`1.21.8`
 - Mod Loader: _Fabric_
-- Requires: [`Fabric API`](https://modrinth.com/mod/fabric-api), [<img width='16' src="https://raw.githubusercontent.com/nemoongh/NemosWoodcutter/master/common/src/main/resources/assets/nemos_woodcutter/icon.png"> `Nemo's Woodcutter`](https://www.modrinth.com/mod/Nemos-Woodcutter)
+- Requires: [`Fabric API`](https://modrinth.com/mod/fabric-api), [<img width='16' src="https://raw.githubusercontent.com/nemoongh/NemosWoodcutter/master/common/src/main/resources/assets/nemos_woodcutter/icon.png"> `Nemoʼs Woodcutter`](https://www.modrinth.com/mod/Nemos-Woodcutter)
 
 ### ᴬ⃯ ᵦ⃔ Translations
 

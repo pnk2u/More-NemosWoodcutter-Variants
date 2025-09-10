@@ -1,5 +1,5 @@
 ### 1.1.5:
-- Make Nemo's Woodcutter dependency check more comprehensive
+- Make Nemoʼs Woodcutter dependency check more comprehensive
 ### 1.1.4:
 - Significantly improve texture compression to decrease mod file size by over 70% (~350KB --> ~100KB)
 ### 1.1.3:
