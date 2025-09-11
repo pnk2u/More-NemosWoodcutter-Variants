@@ -42,7 +42,7 @@
 			}
 		},
 		"mc-publish": {
-			"modrinth": "TAu3MvxJ",
+			"modrinth": "hoNwshLV",
 			"curseforge": "1062068",
 			"dependencies": [
 				"fabric-api(required)#(ignore)",
