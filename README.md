@@ -1,4 +1,4 @@
-# <img width='24' src="./src/main/resources/icon.png"> More Weapon Variants
+# <img width='24' src="./src/main/resources/icon.png"> More Nemoʼs Woodcutter Variants
 > ![Mod Icon](https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-NemosWoodcutter-Variants/pres/logo/logo_c.png)
 >
 > A simple mod adding wood variants for [Nemoʼs Woodcutter](https://www.modrinth.com/mod/Nemos-Woodcutter) block.
