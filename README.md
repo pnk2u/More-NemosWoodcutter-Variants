@@ -1,26 +1,62 @@
-# <img width='24' src="./src/main/resources/icon.png"> More Nemoʼs Woodcutter Variants
-> ![Mod Icon](https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-NemosWoodcutter-Variants/pres/logo/logo_c.png)
->
-> A simple mod adding wood variants for [Nemoʼs Woodcutter](https://www.modrinth.com/mod/Nemos-Woodcutter) block.
+<a name="more-nemos-woodcutter-variants"></a>
+# <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; More Nemo's Woodcutter Variants <sub><a title="More Nemo's Woodcutter Variants on Modrinth" href="https://www.modrinth.com/mod/more-nemos-woodcutter-variants"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="More Nemo's Woodcutter Variants on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/more-nemos-woodcutter-variants"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
+> <img align=left height="153" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-NemosWoodcutter-Variants/pres/logo/logo_c.png">  
+>  A mod adding wood variants for <ins>Nemo's Woodcutter</ins> (&#x200A;<sub><a title="Nemo's Woodcutter&#10;on Modrinth" href="https://modrinth.com/mod/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V--><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Nemo's Woodcutter&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>) Block. <br><br><br><br>  
+>  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-NemosWoodcutter-Variants/pres/gh_desc_banner.gif"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
+<br>  
 
-### Compatibility
+<a name="compatibility"></a>
+### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/puzzle.svg"> Compatibility
 
-- Minecraft: `1.20.1`, `1.21(.1)`, `1.21.4`~`1.21.8`
-- Mod Loader: _Fabric_
-- Requires: [`Fabric API`](https://modrinth.com/mod/fabric-api), [<img width='16' src="https://raw.githubusercontent.com/nemoongh/NemosWoodcutter/master/common/src/main/resources/assets/nemos_woodcutter/icon.png"> `Nemoʼs Woodcutter`](https://www.modrinth.com/mod/Nemos-Woodcutter)
+<table>
+  <thead>
+    <tr>
+      <td><strong>Minecraft</strong></td>
+      <td>
+        <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.20.1"><code>1.20.1</code></a><br>
+        <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10?g=1.21.11"><code>1.21.4</code>~<code>1.21.11</code></a>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Mod Loaders</strong></td>
+      <td><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><a href="https://fabricmc.net/use/installer/"><code>Fabric Loader</code></a></td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <td><strong>Requires</strong></td>
+      <td>
+        <a href="https://modrinth.com/mod/fabric-api"><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><code>Fabric API</code></a><br>
+        <a href="https://modrinth.com/mod/nemos-woodcutter"><sub><img width="16" src="https://uwu.catgirl.host/i/x5k9r.png"></sub><code>Nemoʼs Woodcutter</code></a>
+      </td>
+    </tr>
+  </thead>
+</table>
+<br>
 
-### ᴬ⃯ ᵦ⃔ Translations
+<a name="translations"></a>
+### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/translate.svg"> Translations
 
 Currently available in:
 - English
 
-Want to help translate? Feel free to open a PR to the **default branch (`1.21(.1)`)**.
+> [!NOTE]
+> > Want to help translate? If you can, please open a PR to the **default branch** [`1.21(.1)`](../../tree/1.21(.1)).  
+> > Otherwise, simply send your translation via email (contact@pnku.de) or join the [Discord](https://discord.lieonlion.dev).
 
-### Changelog History
+<br>
 
+
+<img height="53" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/changelog.svg">  
+
+### Versions
+<a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-## 1.14.0:
-### NOTE: Requires **Nemoʼs Woodcutter** `1.14`
+<a name="1.14.0"></a>
+### 1.14.0[*](#footnote-*):
+#### NOTE: Requires **Nemoʼs Woodcutter** `1.14`
 > The only currently available version of **Nemoʼs Woodcutter** `1.14⁺` requires 1.21.8.
 For all other versions (1.21.4 - 1.21.7), this can be considered a pre-emptive update.  
 > Come back here, once **Nemoʼs Woodcutter** `1.14⁺` has been released for your Minecraft version.
@@ -28,27 +64,27 @@ For all other versions (1.21.4 - 1.21.7), this can be considered a pre-emptive u
   -> As a result, this update requires at least **Nemoʼs Woodcutter** `1.14`
 - `1.21.8`: First version compatible with any `1.21.8` version of **Nemoʼs Woodcutter**
 
----
-
-### 1.1.5:
-- Make Nemoʼs Woodcutter dependency check more comprehensive
-### 1.1.4:
-- Significantly improve texture compression to decrease mod file size by over 70% (~350KB --> ~100KB)
-### 1.1.3:
-- `1.21.4(5)`: Update to 1.21.4, 1.21.5
-### 1.1.2:
-- `1.20.1`-`1.21.1`: Fix Mixin declaration from version 1.1.1 preventing the game from starting (1.21.2/3 was not affected)
-### 1.1.1:
-- `1.21.3`: Update to 1.21.3, added _**Pale Oak** Woodcutter_
-- _**Dark Oak** Woodcutter_ recipe now accepts all blocks of the **Dark Oak** Logs tag (Log, Stripped Log, Wood, Stripped Wood), not just the regular Log block (in line with all other recipes for the _Woodcutter_ and its variants)
-## 1.1.0:
-- Fix a bug that made the woodcutter variant blocks not drop when mined
+<h2><sub><sub><sup><ins>Download 1.14.0 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Nemo's Woodcutter Variants 1.14.0 + 1.21(.1)" href="https://modrinth.com/mod/more-nemos-woodcutter-variants/version/YmuTadeN">
+<img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;More Nemo's Woodcutter Variants 1.14.0 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-nemos-woodcutter-variants/files/6984739">
+<img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
 
 <!--CHANGELOG:END-->
-> _`The section above is automatically updated with each new release and only includes already published releases.`_
+<a name="footnote-*"></a>
+> <strong>*</strong><sup>: Most recent version</sup>  
+> _`The version above is automatically updated with the newest release and only after it has been successfully published.`_
+
+<a name="changelog-history"></a>
+> [!TIP]
+> > Looking for changes of previous versions?  
+> > You can find them in the [changelog history](./CHANGELOG_history.md).
+
 ---
 #### Support/Contact
 - Suggestions? Questions? Bug reports?  
-  Feel free to [open an issue](https://github.com/pnk2u/More-Frame-Variants/issues)!  
+  Feel free to [open an issue](/../../issues)!  
   &nbsp;  
   You can also contact me via email at [contact@pnku.de](mailto:contact@pnku.de) or join the [Discord](https://dsc.lieonlion.dev) and contact me there.

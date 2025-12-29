@@ -1,7 +1,7 @@
 package de.pnku.morenemoswoodcuttervariants.mixin.screen;
 
-import com.devnemo.nemos.woodcutter.world.level.block.WoodcutterBlock;
-import com.devnemo.nemos.woodcutter.client.gui.screen.WoodcutterMenu;
+import com.nemonotfound.nemos.woodcutter.world.level.block.WoodcutterBlock;
+import com.nemonotfound.nemos.woodcutter.client.gui.screen.WoodcutterMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.ContainerLevelAccess;
 import org.spongepowered.asm.mixin.Final;
