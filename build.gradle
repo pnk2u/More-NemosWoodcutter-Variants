@@ -119,8 +119,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
 
 	// Nemoʼs Woodcutter Main
-	modCompileOnly("maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version_id}")
-	modRuntimeOnly("maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version_id}")
+	modCompileOnly "maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version_id}"
+	modRuntimeOnly "maven.modrinth:nemos-woodcutter:${project.nemos_woodcutter_version_id}"
 }
 
 static def version_reduced(String input) { // Reduces a version string by one minor version and sets patch to 0
