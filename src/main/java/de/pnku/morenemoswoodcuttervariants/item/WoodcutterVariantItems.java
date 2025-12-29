@@ -1,6 +1,6 @@
 package de.pnku.morenemoswoodcuttervariants.item;
 
-import com.devnemo.nemos.woodcutter.world.level.block.WoodcutterBlocks;
+import com.nemonotfound.nemos.woodcutter.world.level.block.WoodcutterBlocks;
 import de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants;
 import de.pnku.morenemoswoodcuttervariants.block.WoodcutterVariantBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
