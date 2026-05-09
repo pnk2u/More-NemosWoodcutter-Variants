@@ -33,7 +33,7 @@
 		"minecraft": ">${minecraft_version_0} <${minecraft_version_1}",
 		"java": ">=17",
 		"fabric-api": "*",
-		"nemos-woodcutter": "1.12.3"
+		"nemos-woodcutter": "${nemos_woodcutter_version}"
 	},
 	"custom": {
 		"modmenu": {
