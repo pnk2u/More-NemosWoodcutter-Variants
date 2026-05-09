@@ -6,13 +6,13 @@
 	"description": "${mod_description}",
 	"authors": [
 		"pnku",
-		"DevNemo"
+		"NemoNotFound"
 	],
 	"contact": {
 		"email": "contact@pnku.de",
 		"homepage": "https://www.pnku.de/",
-		"sources": "https://github.com/pnk2u/more-nemoswoodcutter-variants",
-		"issues": "https://github.com/pnk2u/more-nemoswoodcutter-variants/issues"
+		"sources": "https://github.com/pnk2u/More-Nemos-Woodcutter-Variants",
+		"issues": "https://github.com/pnk2u/More-Nemos-Woodcutter-Variants/issues"
 	},
 	"license": "MIT",
 	"icon": "icon.png",
@@ -33,7 +33,7 @@
 		"minecraft": ">${minecraft_version_0} <${minecraft_version_1}",
 		"java": ">=21",
 		"fabric-api": "*",
-		"nemos_woodcutter": ">=1.13"
+		"nemos_woodcutter": "${nemos_woodcutter_version}"
 	},
 	"custom": {
 		"modmenu": {
