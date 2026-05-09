@@ -1,7 +1,7 @@
 package de.pnku.morenemoswoodcuttervariants.block;
 
-import com.nemonotfound.nemos.woodcutter.world.level.block.WoodcutterBlocks;
-import com.nemonotfound.nemos.woodcutter.world.level.block.WoodcutterBlock;
+import com.nemonotfound.nemoswoodcutter.block.ModBlocks;
+import com.nemonotfound.nemoswoodcutter.block.WoodcutterBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -86,7 +86,7 @@ public class WoodcutterVariantBlocks {
 
 
     public static void registerBlocks() {
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterBlocks.WOODCUTTER_BLOCK,
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(ModBlocks.WOODCUTTER_BLOCK,
                 WoodcutterVariantBlocks.ACACIA_WOODCUTTER_BLOCK));
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(content -> content.addAfter(WoodcutterVariantBlocks.ACACIA_WOODCUTTER_BLOCK,
                 WoodcutterVariantBlocks.BAMBOO_WOODCUTTER_BLOCK));
