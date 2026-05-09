@@ -1,4 +1,4 @@
-package de.pnku.morenemoswoodcuttervariants.item;
+package de.pnku.more_nemos_woodcutter_variants.item;
 
 import com.nemonotfound.nemos.woodcutter.world.level.block.WoodcutterBlocks;
 import de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants;

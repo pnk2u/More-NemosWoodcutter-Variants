@@ -1,7 +1,7 @@
 package de.pnku.morenemoswoodcuttervariants;
 
 import de.pnku.morenemoswoodcuttervariants.block.WoodcutterVariantBlocks;
-import de.pnku.morenemoswoodcuttervariants.item.WoodcutterVariantItems;
+import de.pnku.more_nemos_woodcutter_variants.item.WoodcutterVariantItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
