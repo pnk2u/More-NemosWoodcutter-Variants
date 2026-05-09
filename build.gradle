@@ -33,6 +33,14 @@ repositories {
 }
 
 loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		project.properties.get("mod_id") {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
 }
 
 def getReleaseVersion(minecraftVersion) {
