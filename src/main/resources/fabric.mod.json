@@ -11,11 +11,11 @@
 	"contact": {
 		"email": "contact@pnku.de",
 		"homepage": "https://www.pnku.de/",
-		"sources": "https://github.com/pnk2u/more-nemoswoodcutter-variants",
-		"issues": "https://github.com/pnk2u/more-nemoswoodcutter-variants/issues"
+		"sources": "https://github.com/pnk2u/More-Nemos-Woodcutter-Variants",
+		"issues": "https://github.com/pnk2u/More-Nemos-Woodcutter-Variants/issues"
 	},
 	"license": "MIT",
-	"icon": "assets/morenemoswoodcuttervariants/icon.png",
+	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -29,9 +29,25 @@
 		"morenemoswoodcuttervariants.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.0",
-		"minecraft": ">=${minecraft_version_0}",
+		"fabricloader": ">=${loader_version}",
+		"minecraft": ">${minecraft_version_0} <${minecraft_version_1}",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"nemos-woodcutter": "1.12.3"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://dsc.lieonlion.dev"
+			}
+		},
+		"mc-publish": {
+			"modrinth": "hoNwshLV",
+			"curseforge": "1062068",
+			"dependencies": [
+				"fabric-api(required)#(ignore)",
+				"nemos-woodcutter(required){modrinth:mr1LTtgz}{curseforge:914549}"
+			]
+		}
 	}
 }
