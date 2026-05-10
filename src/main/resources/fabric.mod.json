@@ -19,10 +19,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants"
+			"de.pnku.more_nemos_woodcutter_variants.MoreNemosWoodcutterVariants"
 		],
 		"client": [
-			"de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariantsClient"
+			"de.pnku.more_nemos_woodcutter_variants.MoreNemosWoodcutterVariantsClient"
 		]
 	},
 	"mixins": [
