@@ -7,7 +7,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 
-import static de.pnku.morenemoswoodcuttervariants.block.WoodcutterVariantBlocks.more_woodcutters;
+import static de.pnku.more_nemos_woodcutter_variants.block.WoodcutterVariantBlocks.more_woodcutters;
 
 @Environment(EnvType.CLIENT)
 public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
@@ -17,5 +17,8 @@ public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
         for (Block woodcutterBlock : more_woodcutters) {
             BlockRenderLayerMap.INSTANCE.putBlock(woodcutterBlock, RenderType.cutout());
         }
+        // print runtime classpath for debugging
+        String classpath = System.getProperty("java.class.path");
+        MoreNemosWoodcutterVariants.LOGGER.info("Runtime classpath: " + classpath);
     }
 }
