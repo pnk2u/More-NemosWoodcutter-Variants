@@ -17,8 +17,5 @@ public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
         for (Block woodcutterBlock : more_woodcutters) {
             BlockRenderLayerMap.INSTANCE.putBlock(woodcutterBlock, RenderType.cutout());
         }
-        // print runtime classpath for debugging
-        String classpath = System.getProperty("java.class.path");
-        MoreNemosWoodcutterVariants.LOGGER.info("Runtime classpath: " + classpath);
     }
 }
