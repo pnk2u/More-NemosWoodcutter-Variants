@@ -43,8 +43,5 @@ public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        // print runtime classpath for debugging
-        String classpath = System.getProperty("java.class.path");
-        MoreNemosWoodcutterVariants.LOGGER.info("Runtime classpath: " + classpath);
     }
 }
