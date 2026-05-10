@@ -6,7 +6,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.world.level.block.Block;
 
-import static de.pnku.morenemoswoodcuttervariants.block.WoodcutterVariantBlocks.more_woodcutters;
+import static de.pnku.more_nemos_woodcutter_variants.block.WoodcutterVariantBlocks.more_woodcutters;
 
 @Environment(EnvType.CLIENT)
 public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
@@ -43,5 +43,8 @@ public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        // print runtime classpath for debugging
+        String classpath = System.getProperty("java.class.path");
+        MoreNemosWoodcutterVariants.LOGGER.info("Runtime classpath: " + classpath);
     }
 }

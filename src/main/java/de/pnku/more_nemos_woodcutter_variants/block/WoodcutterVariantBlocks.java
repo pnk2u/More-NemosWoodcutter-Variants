@@ -1,4 +1,4 @@
-package de.pnku.morenemoswoodcuttervariants.block;
+package de.pnku.more_nemos_woodcutter_variants.block;
 
 import com.nemonotfound.nemos.woodcutter.world.level.block.WoodcutterBlocks;
 import com.nemonotfound.nemos.woodcutter.world.level.block.WoodcutterBlock;
@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
-import static de.pnku.morenemoswoodcuttervariants.MoreNemosWoodcutterVariants.MOD_ID;
+import static de.pnku.more_nemos_woodcutter_variants.MoreNemosWoodcutterVariants.MOD_ID;
 
 public class WoodcutterVariantBlocks {
     public static List<Block> more_woodcutters = new ArrayList<>();
