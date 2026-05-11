@@ -73,7 +73,7 @@ public class MoreWoodcutterItems {
             Registry.register(BuiltInRegistries.ITEM, MoreNemosWoodcutterVariants.withModId(woodcutterName), woodcutterItem);
             ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addBefore(Items.CARTOGRAPHY_TABLE, woodcutterItem));
             // mod_id change from morenemoswoodcuttervariants to more_nemos_woodcutter_variants - alias for backwards compatibility
-            // BuiltInRegistries.ITEM.addAlias(MoreNemosWoodcutterVariants.withModId(woodcutterName, true), MoreNemosWoodcutterVariants.withModId(woodcutterName));
+                BuiltInRegistries.ITEM.addAlias(MoreNemosWoodcutterVariants.withLegacyModId(woodcutterName), MoreNemosWoodcutterVariants.withModId(woodcutterName));
         }
     }
 }

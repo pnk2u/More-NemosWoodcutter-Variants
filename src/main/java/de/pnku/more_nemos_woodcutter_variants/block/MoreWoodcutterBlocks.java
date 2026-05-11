@@ -50,7 +50,7 @@ public class MoreWoodcutterBlocks {
             Registry.register(BuiltInRegistries.BLOCK, MoreNemosWoodcutterVariants.withModId(woodcutterName), woodcutterBlock);
             WOODCUTTER_BLOCKS_BY_WOOD_TYPE.put(((MoreWoodcutterBlock) woodcutterBlock).woodcutterWoodType, woodcutterBlock);
             // mod_id change from morenemoswoodcuttervariants to more_nemos_woodcutter_variants - alias for backwards compatibility
-            // BuiltInRegistries.BLOCK.addAlias(MoreNemosWoodcutterVariants.withModId(woodcutterName, true), MoreNemosWoodcutterVariants.withModId(woodcutterName));
+                BuiltInRegistries.BLOCK.addAlias(MoreNemosWoodcutterVariants.withLegacyModId(woodcutterName), MoreNemosWoodcutterVariants.withModId(woodcutterName));
         }
     }
 
