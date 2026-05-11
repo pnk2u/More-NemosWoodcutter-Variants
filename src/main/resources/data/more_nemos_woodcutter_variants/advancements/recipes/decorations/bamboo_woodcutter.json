@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "morenemoswoodcuttervariants:bamboo_woodcutter"
+        "recipe": "more_nemos_woodcutter_variants:bamboo_woodcutter"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "morenemoswoodcuttervariants:bamboo_woodcutter"
+      "more_nemos_woodcutter_variants:bamboo_woodcutter"
     ]
   }
 }

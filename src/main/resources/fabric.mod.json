@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"morenemoswoodcuttervariants.mixins.json"
+		"more_nemos_woodcutter_variants.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",
