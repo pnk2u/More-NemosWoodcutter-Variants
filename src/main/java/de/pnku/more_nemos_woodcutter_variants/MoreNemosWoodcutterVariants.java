@@ -9,7 +9,8 @@ import org.slf4j.LoggerFactory;
 
 public class MoreNemosWoodcutterVariants implements ModInitializer {
 
-	public static final String MOD_ID = "morenemoswoodcuttervariants";
+	public static final String MOD_ID = "more_nemos_woodcutter_variants";
+	public static final String LEGACY_MOD_ID = "morenemoswoodcuttersvariants";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -21,5 +22,9 @@ public class MoreNemosWoodcutterVariants implements ModInitializer {
 
 	public static ResourceLocation withModId(String path) {
 		return ResourceLocation.tryBuild(MOD_ID, path);
+	}
+
+	public static ResourceLocation withLegacyModId(String path) {
+		return ResourceLocation.tryBuild(LEGACY_MOD_ID, path);
 	}
 }
