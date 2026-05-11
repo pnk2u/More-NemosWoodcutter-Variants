@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "morenemoswoodcuttervariants:bamboo_woodcutter"
+          "name": "more_nemos_woodcutter_variants:bamboo_woodcutter"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "morenemoswoodcuttervariants:blocks/bamboo_woodcutter"
+  "random_sequence": "more_nemos_woodcutter_variants:blocks/bamboo_woodcutter"
 }

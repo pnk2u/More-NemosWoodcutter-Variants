@@ -4,34 +4,34 @@
   "ingredients": [
     [
       {
-        "item": "morenemoswoodcuttervariants:acacia_woodcutter"
+        "item": "more_nemos_woodcutter_variants:acacia_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:bamboo_woodcutter"
+        "item": "more_nemos_woodcutter_variants:bamboo_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:birch_woodcutter"
+        "item": "more_nemos_woodcutter_variants:birch_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:cherry_woodcutter"
+        "item": "more_nemos_woodcutter_variants:cherry_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:crimson_woodcutter"
+        "item": "more_nemos_woodcutter_variants:crimson_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:dark_oak_woodcutter"
+        "item": "more_nemos_woodcutter_variants:dark_oak_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:jungle_woodcutter"
+        "item": "more_nemos_woodcutter_variants:jungle_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:mangrove_woodcutter"
+        "item": "more_nemos_woodcutter_variants:mangrove_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:spruce_woodcutter"
+        "item": "more_nemos_woodcutter_variants:spruce_woodcutter"
       },
       {
-        "item": "morenemoswoodcuttervariants:warped_woodcutter"
+        "item": "more_nemos_woodcutter_variants:warped_woodcutter"
       }
     ]
   ],

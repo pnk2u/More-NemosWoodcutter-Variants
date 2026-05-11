@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "morenemoswoodcuttervariants:block/birch_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/birch_woodcutter",
       "y": 90
     },
     "facing=north": {
-      "model": "morenemoswoodcuttervariants:block/birch_woodcutter"
+      "model": "more_nemos_woodcutter_variants:block/birch_woodcutter"
     },
     "facing=south": {
-      "model": "morenemoswoodcuttervariants:block/birch_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/birch_woodcutter",
       "y": 180
     },
     "facing=west": {
-      "model": "morenemoswoodcuttervariants:block/birch_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/birch_woodcutter",
       "y": 270
     }
   }

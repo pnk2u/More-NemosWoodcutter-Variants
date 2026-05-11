@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "morenemoswoodcuttervariants:dark_oak_woodcutter"
+        "recipe": "more_nemos_woodcutter_variants:dark_oak_woodcutter"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "morenemoswoodcuttervariants:dark_oak_woodcutter"
+      "more_nemos_woodcutter_variants:dark_oak_woodcutter"
     ]
   }
 }
