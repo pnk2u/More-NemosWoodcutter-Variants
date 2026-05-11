@@ -9,12 +9,12 @@ public class MoreWoodcutterBlock extends WoodcutterBlock {
     public final String woodcutterWoodType;
 
     public MoreWoodcutterBlock(MapColor colour, String woodcutterWoodType) {
-        super(Properties.ofFullCopy(ModBlocks.WOODCUTTER_BLOCK).mapColor(colour));
+        super(Properties.copy(ModBlocks.WOODCUTTER_BLOCK).mapColor(colour));
         this.woodcutterWoodType = woodcutterWoodType;
     }
 
     public MoreWoodcutterBlock(MapColor colour, SoundType soundType, String woodcutterWoodType) {
-        super(Properties.ofFullCopy(ModBlocks.WOODCUTTER_BLOCK).mapColor(colour).sound(soundType));
+        super(Properties.copy(ModBlocks.WOODCUTTER_BLOCK).mapColor(colour).sound(soundType));
         this.woodcutterWoodType = woodcutterWoodType;
     }
 }
