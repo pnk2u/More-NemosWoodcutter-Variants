@@ -1,9 +1,9 @@
 {   "parent": "block/block",
   "textures": {
-    "particle": "morenemoswoodcuttervariants:block/spruce_woodcutter_bottom",
-    "bottom": "morenemoswoodcuttervariants:block/spruce_woodcutter_bottom",
-    "top": "morenemoswoodcuttervariants:block/spruce_woodcutter_top",
-    "side": "morenemoswoodcuttervariants:block/spruce_woodcutter_side",
+    "particle": "more_nemos_woodcutter_variants:block/spruce_woodcutter_bottom",
+    "bottom": "more_nemos_woodcutter_variants:block/spruce_woodcutter_bottom",
+    "top": "more_nemos_woodcutter_variants:block/spruce_woodcutter_top",
+    "side": "more_nemos_woodcutter_variants:block/spruce_woodcutter_side",
     "saw": "minecraft:block/stonecutter_saw"
   },
   "elements": [

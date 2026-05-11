@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "morenemoswoodcuttervariants:block/dark_oak_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/dark_oak_woodcutter",
       "y": 90
     },
     "facing=north": {
-      "model": "morenemoswoodcuttervariants:block/dark_oak_woodcutter"
+      "model": "more_nemos_woodcutter_variants:block/dark_oak_woodcutter"
     },
     "facing=south": {
-      "model": "morenemoswoodcuttervariants:block/dark_oak_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/dark_oak_woodcutter",
       "y": 180
     },
     "facing=west": {
-      "model": "morenemoswoodcuttervariants:block/dark_oak_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/dark_oak_woodcutter",
       "y": 270
     }
   }

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "morenemoswoodcuttervariants:cherry_woodcutter"
+          "name": "more_nemos_woodcutter_variants:cherry_woodcutter"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "morenemoswoodcuttervariants:blocks/cherry_woodcutter"
+  "random_sequence": "more_nemos_woodcutter_variants:blocks/cherry_woodcutter"
 }

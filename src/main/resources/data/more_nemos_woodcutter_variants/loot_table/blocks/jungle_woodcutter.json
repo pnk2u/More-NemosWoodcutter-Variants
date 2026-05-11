@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "morenemoswoodcuttervariants:jungle_woodcutter"
+          "name": "more_nemos_woodcutter_variants:jungle_woodcutter"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "morenemoswoodcuttervariants:blocks/jungle_woodcutter"
+  "random_sequence": "more_nemos_woodcutter_variants:blocks/jungle_woodcutter"
 }

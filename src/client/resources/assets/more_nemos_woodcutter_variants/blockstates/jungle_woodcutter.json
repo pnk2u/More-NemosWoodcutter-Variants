@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "morenemoswoodcuttervariants:block/jungle_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/jungle_woodcutter",
       "y": 90
     },
     "facing=north": {
-      "model": "morenemoswoodcuttervariants:block/jungle_woodcutter"
+      "model": "more_nemos_woodcutter_variants:block/jungle_woodcutter"
     },
     "facing=south": {
-      "model": "morenemoswoodcuttervariants:block/jungle_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/jungle_woodcutter",
       "y": 180
     },
     "facing=west": {
-      "model": "morenemoswoodcuttervariants:block/jungle_woodcutter",
+      "model": "more_nemos_woodcutter_variants:block/jungle_woodcutter",
       "y": 270
     }
   }
