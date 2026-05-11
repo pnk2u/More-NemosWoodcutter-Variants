@@ -1,8 +1,9 @@
 package de.pnku.more_nemos_woodcutter_variants;
 
-import de.pnku.more_nemos_woodcutter_variants.block.WoodcutterVariantBlocks;
-import de.pnku.more_nemos_woodcutter_variants.item.WoodcutterVariantItems;
+import de.pnku.more_nemos_woodcutter_variants.block.MoreWoodcutterBlocks;
+import de.pnku.more_nemos_woodcutter_variants.item.MoreWoodcutterItems;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,7 +15,11 @@ public class MoreNemosWoodcutterVariants implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Nemo's Woodcutters come in all* colors!");
-        WoodcutterVariantBlocks.registerBlocks();
-        WoodcutterVariantItems.registerItems();
+		MoreWoodcutterBlocks.registerBlocks();
+		MoreWoodcutterItems.registerItems();
+	}
+
+	public static Identifier withModId(String path) {
+		return Identifier.tryBuild(MOD_ID, path);
 	}
 }

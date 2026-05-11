@@ -6,7 +6,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.world.level.block.Block;
 
-import static de.pnku.more_nemos_woodcutter_variants.block.WoodcutterVariantBlocks.more_woodcutters;
+import static de.pnku.more_nemos_woodcutter_variants.block.MoreWoodcutterBlocks.more_woodcutter_blocks;
 
 @Environment(EnvType.CLIENT)
 public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
@@ -16,7 +16,7 @@ public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
         String mcVersion = FabricLoader.getInstance().getModContainer("minecraft").get().getMetadata().getVersion().getFriendlyString();
         boolean isLegacy = mcVersion.contains("1.21.4") || mcVersion.contains("1.21.5");
         boolean isDev = FabricLoader.getInstance().isDevelopmentEnvironment();
-        for (Block woodcutterBlock : more_woodcutters) {
+        for (Block woodcutterBlock : more_woodcutter_blocks) {
             if (isLegacy) {legacyAddToRenderLayerMap(woodcutterBlock);}
             else {addToRenderLayerMap(woodcutterBlock, isDev);}
         }
