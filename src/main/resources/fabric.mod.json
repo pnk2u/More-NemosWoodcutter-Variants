@@ -38,7 +38,7 @@
 	"custom": {
 		"modmenu": {
 			"links": {
-				"modmenu.discord": "https://dsc.lieonlion.dev"
+				"modmenu.discord": "https://discord.lieonlion.dev"
 			}
 		},
 		"mc-publish": {
@@ -46,7 +46,7 @@
 			"curseforge": "1062068",
 			"dependencies": [
 				"fabric-api(required)#(ignore)",
-				"nemos-woodcutter(required){modrinth:mr1LTtgz}{curseforge:914549}"
+				"nemos-woodcutter@${nemos_woodcutter_version}(required){modrinth:mr1LTtgz}{curseforge:914549}"
 			]
 		}
 	}
