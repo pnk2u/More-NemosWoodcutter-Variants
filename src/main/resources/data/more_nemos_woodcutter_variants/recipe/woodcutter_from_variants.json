@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
       "#more_nemos_woodcutter_variants:woodcutter_variants"
-    ]
   ],
   "result": {
     "count": 1,

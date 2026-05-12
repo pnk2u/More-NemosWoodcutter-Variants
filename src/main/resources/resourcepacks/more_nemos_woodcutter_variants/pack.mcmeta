@@ -3,6 +3,9 @@
     "description": {
       "translate": "resourcePack.more_nemos_woodcutter_variants.description"
     },
+    "min_format": 61,
+    "supported_formats": [61, 81],
+    "max_format": [94,1],
     "pack_format": 94.1
   }
 }
