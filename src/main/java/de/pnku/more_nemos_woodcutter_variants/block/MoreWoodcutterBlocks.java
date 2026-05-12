@@ -26,8 +26,10 @@ public class MoreWoodcutterBlocks {
     public static final Block CRIMSON_WOODCUTTER = new MoreWoodcutterBlock(MapColor.CRIMSON_STEM, SoundType.NETHER_WOOD, "crimson");
     public static final Block WARPED_WOODCUTTER = new MoreWoodcutterBlock(MapColor.WARPED_STEM, SoundType.NETHER_WOOD, "warped");
 
+    public static final TagKey<Block> WOODCUTTER_VARIANTS_BLOCK_TAG = TagKey.create(Registries.BLOCK, MoreNemosWoodcutterVariants.withModId("woodcutter_variants"));
     public static final TagKey<Block> WOODCUTTERS_BLOCK_TAG = TagKey.create(Registries.BLOCK, MoreNemosWoodcutterVariants.withModId("woodcutters"));
     public static final Map<String, Block> WOODCUTTER_BLOCKS_BY_WOOD_TYPE = new HashMap<>();
+
     public static final List<Block> more_woodcutter_blocks = List.of(
             BIRCH_WOODCUTTER,
             SPRUCE_WOODCUTTER,
@@ -40,7 +42,6 @@ public class MoreWoodcutterBlocks {
             CRIMSON_WOODCUTTER,
             WARPED_WOODCUTTER
     );
-
 
     public static void registerBlocks() {
         for (Block woodcutterBlock : more_woodcutter_blocks) {
