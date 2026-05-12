@@ -9,5 +9,11 @@
   "block.more_nemos_woodcutter_variants.jungle_woodcutter": "Jungle Woodcutter",
   "block.more_nemos_woodcutter_variants.mangrove_woodcutter": "Mangrove Woodcutter",
   "block.more_nemos_woodcutter_variants.spruce_woodcutter": "Spruce Woodcutter",
-  "block.more_nemos_woodcutter_variants.warped_woodcutter": "Warped Woodcutter"
+  "block.more_nemos_woodcutter_variants.warped_woodcutter": "Warped Woodcutter",
+  "resourcePack.more_nemos_woodcutter_variants.description": "Overwrites default Woodcutter recipe to allow crafting of Woodcutter variants",
+  "resourcePack.more_nemos_woodcutter_variants.name": "More Nemo's Woodcutter Variants",
+  "tag.block.more_nemos_woodcutter_variants.woodcutter_variants": "Woodcutter Block Variants",
+  "tag.item.more_nemos_woodcutter_variants.woodcutter_variants": "Woodcutter Item Variants",
+  "tag.block.c.woodcutters": "Woodcutter Blocks",
+  "tag.item.c.woodcutters": "Woodcutter Items"
 }

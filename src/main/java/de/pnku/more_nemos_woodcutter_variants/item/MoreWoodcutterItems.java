@@ -32,6 +32,7 @@ public class MoreWoodcutterItems {
     public static final Item SPRUCE_WOODCUTTER = createWoodcutterItem("spruce");
     public static final Item WARPED_WOODCUTTER = createWoodcutterItem("warped");
 
+    public static final TagKey<Item> WOODCUTTER_VARIANTS_ITEM_TAG = TagKey.create(Registries.ITEM, MoreNemosWoodcutterVariants.withModId("woodcutter_variants"));
     public static final TagKey<Item> WOODCUTTERS_ITEM_TAG = TagKey.create(Registries.ITEM, MoreNemosWoodcutterVariants.withModId("woodcutters"));
 
     public static BlockItem itemFromBlock(Block block) {

@@ -3,17 +3,7 @@
   "category": "misc",
   "ingredients": [
     [
-      "more_nemos_woodcutter_variants:acacia_woodcutter",
-      "more_nemos_woodcutter_variants:bamboo_woodcutter",
-      "more_nemos_woodcutter_variants:birch_woodcutter",
-      "more_nemos_woodcutter_variants:cherry_woodcutter",
-      "more_nemos_woodcutter_variants:crimson_woodcutter",
-      "more_nemos_woodcutter_variants:dark_oak_woodcutter",
-      "more_nemos_woodcutter_variants:pale_oak_woodcutter",
-      "more_nemos_woodcutter_variants:jungle_woodcutter",
-      "more_nemos_woodcutter_variants:mangrove_woodcutter",
-      "more_nemos_woodcutter_variants:spruce_woodcutter",
-      "more_nemos_woodcutter_variants:warped_woodcutter"
+      "#more_nemos_woodcutter_variants:woodcutter_variants"
     ]
   ],
   "result": {

@@ -3,7 +3,10 @@ package de.pnku.more_nemos_woodcutter_variants;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.level.block.Block;
 
 import static de.pnku.more_nemos_woodcutter_variants.block.MoreWoodcutterBlocks.more_woodcutter_blocks;
@@ -20,6 +23,12 @@ public class MoreNemosWoodcutterVariantsClient implements ClientModInitializer {
             if (isLegacy) {legacyAddToRenderLayerMap(woodcutterBlock);}
             else {addToRenderLayerMap(woodcutterBlock, isDev);}
         }
+        ResourceManagerHelper.registerBuiltinResourcePack(
+                MoreNemosWoodcutterVariants.withModId(MoreNemosWoodcutterVariants.MOD_ID),
+                FabricLoader.getInstance().getModContainer(MoreNemosWoodcutterVariants.MOD_ID).orElseThrow(),
+                Component.translatable("resourcePack." + MoreNemosWoodcutterVariants.MOD_ID + ".name"),
+                ResourcePackActivationType.ALWAYS_ENABLED
+        );
     }
 
     private void legacyAddToRenderLayerMap(Block block) {

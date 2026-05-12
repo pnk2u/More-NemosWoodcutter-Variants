@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_impossible": {
+    "has_logs": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:end_portal_frame"
+            "items": "#minecraft:oak_logs"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "more_nemos_woodcutter_variants:nemos_woodcutter_from_cherry_plus"
+        "recipe": "nemos_woodcutter:woodcutter"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_impossible"
+      "has_logs"
     ]
   ],
   "rewards": {
     "recipes": [
-      "more_nemos_woodcutter_variants:nemos_woodcutter_from_cherry_plus"
+      "nemos_woodcutter:woodcutter"
     ]
   }
 }
