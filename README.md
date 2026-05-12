@@ -55,19 +55,28 @@
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.14.1"></a>
-#### 1.14.1[*](#footnote-*):
-- `1.21.11`: Fixes crash when used with <ins>Nemo's Woodcutter</ins> (&#x200A;<sub><a title="Nemo's Woodcutter&#10;on Modrinth" href="https://modrinth.com/mod/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>&#x200A;&#x200A;&#x200A;<a title="Nemo's Woodcutter&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;) `1.14.1+1.21.11` by partially reverting adoption of internal changes found in previous `1.14`/`1.14.1` versions
-  
+<a name="2.0.0"></a>
+#### 2.0.0[*](#footnote-*):
+- Fix _Woodcutter_ Variants' crafting recipes sometimes being overwritten by the default Woodcutter recipe
+- `1.21.4(-11)`:
+  - Fix _**Pale Oak** Woodcutter_'s crafting recipe not unlocking upon obtaining _Pale Oak Logs_
+  - Fix _**Pale Oak** Woodcutter_ not dropping when mined
+- Change <ins>Nemo's Woodcutter</ins> (&#x200A;<sub><a title="Nemo's Woodcutter&#10;on Modrinth" href="https://modrinth.com/mod/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a></sub><!--SEPARATOR_V:MR--><img width=5 height=8 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"><sub><a title="Nemo's Woodcutter&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>&#x200A;) required version to one static version per release:
+    - &nbsp;  
+      |||  
+      |--|--|  
+      |`1.20.1`|[`1.12.3-1.20.1`](https://modrinth.com/mod/nemos-woodcutter/version/1.12.3-1.20.1)|  
+      |`1.21(.1)`|[`1.12.3-1.21.1`](https://modrinth.com/mod/nemos-woodcutter/version/1.12.3-1.21.1)|  
+      |`1.21.4(-11)`|[`1.21.11-1.14.1`](https://modrinth.com/mod/nemos-woodcutter/version/1.21.11-1.14.1)|  
+- Internal Changes:
+    - Update Mod ID from `nemosmorewoodcuttervariants` to `nemos_more_woodcutter_variants`
+      > This does not affect existing saves negatively, as the mod will still recognize the old ID and migrate it to the new one seamlessly.
+    - `1.20.1`: Now requires at least Fabric API [`0.92.8`](https://modrinth.com/mod/fabric-api/version/0.92.8+1.20.1) (latest: [`0.92.9`](https://modrinth.com/mod/fabric-api/version/0.92.9+1.20.1)) to allow for the seamless save migration as described above
 
-  > **Note**: That means this version is as of release only compatible with _Nemo's Woodcutter_ `1.14.1+1.21.11`, and unfortunately incompatible with other versions of _Nemo's Woodcutter_ `1.14.1` as they do not include this internal change, even though they'd compatible otherwise. This may be fixed with future updates of _Nemo's Woodcutter_.  
-  > 
-  > I can further not make any predictions on what breaking internal changes even within the same version of _Nemo's Woodcutter_ may happen, so please report to me if you find any issues, many thanks in advance!
-
-<h2><sub><sub><sup><ins>Download 1.14.1 + 1.21.4(-11)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Nemo's Woodcutter Variants 1.14.1 + 1.21.4(-11)" href="https://www.modrinth.com/mod/hoNwshLV/version/3LaUF829">
+<h2><sub><sub><sup><ins>Download 2.0.0 + 1.21.4(-11)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Nemo's Woodcutter Variants 2.0.0 + 1.21.4(-11)" href="https://www.modrinth.com/mod/hoNwshLV/version/pKKuG7jH">
 <img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>&#x200A;
-<a title="Download (Curseforge):&#10;1.14.1 + 1.21.4(-11) - More Nemo's Woodcutter Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-nemos-woodcutter-variants/files/7394570">
+<a title="Download (Curseforge):&#10;2.0.0 + 1.21.4(-11) - More Nemo's Woodcutter Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-nemos-woodcutter-variants/files/8079624">
 <img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
