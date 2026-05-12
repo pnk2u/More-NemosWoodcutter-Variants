@@ -20,26 +20,27 @@ import static de.pnku.more_nemos_woodcutter_variants.block.MoreWoodcutterBlocks.
 
 public class MoreWoodcutterItems {
 
-    public static final Item BIRCH_WOODCUTTER = createWoodcutterItem("birch");
-    public static final Item JUNGLE_WOODCUTTER = createWoodcutterItem("jungle");
-    public static final Item ACACIA_WOODCUTTER = createWoodcutterItem("acacia");
-    public static final Item DARK_OAK_WOODCUTTER = createWoodcutterItem("dark_oak");
-    public static final Item PALE_OAK_WOODCUTTER = createWoodcutterItem("pale_oak");
-    public static final Item MANGROVE_WOODCUTTER = createWoodcutterItem( "mangrove");
-    public static final Item CHERRY_WOODCUTTER = createWoodcutterItem("cherry");
-    public static final Item BAMBOO_WOODCUTTER = createWoodcutterItem("bamboo");
-    public static final Item CRIMSON_WOODCUTTER = createWoodcutterItem("crimson");
-    public static final Item SPRUCE_WOODCUTTER = createWoodcutterItem("spruce");
-    public static final Item WARPED_WOODCUTTER = createWoodcutterItem("warped");
+    public static final Item BIRCH_WOODCUTTER = itemFromWoodType("birch");
+    public static final Item JUNGLE_WOODCUTTER = itemFromWoodType("jungle");
+    public static final Item ACACIA_WOODCUTTER = itemFromWoodType("acacia");
+    public static final Item DARK_OAK_WOODCUTTER = itemFromWoodType("dark_oak");
+    public static final Item PALE_OAK_WOODCUTTER = itemFromWoodType("pale_oak");
+    public static final Item MANGROVE_WOODCUTTER = itemFromWoodType( "mangrove");
+    public static final Item CHERRY_WOODCUTTER = itemFromWoodType("cherry");
+    public static final Item BAMBOO_WOODCUTTER = itemFromWoodType("bamboo");
+    public static final Item CRIMSON_WOODCUTTER = itemFromWoodType("crimson",true);
+    public static final Item SPRUCE_WOODCUTTER = itemFromWoodType("spruce");
+    public static final Item WARPED_WOODCUTTER = itemFromWoodType("warped",true);
 
     public static final TagKey<Item> WOODCUTTER_VARIANTS_ITEM_TAG = TagKey.create(Registries.ITEM, MoreNemosWoodcutterVariants.withModId("woodcutter_variants"));
     public static final TagKey<Item> WOODCUTTERS_ITEM_TAG = TagKey.create(Registries.ITEM, MoreNemosWoodcutterVariants.withModId("woodcutters"));
 
-    public static BlockItem itemFromBlock(Block block) {
-        return itemFromBlock(block, false);
+    public static BlockItem itemFromWoodType(String woodType) {
+        return itemFromWoodType(woodType, false);
     }
 
-    public static BlockItem itemFromBlock(Block block, boolean isNether) {
+    public static BlockItem itemFromWoodType(String woodType, boolean isNether) {
+        Block block = getWoodcutterBlockByWoodType(woodType);
         return new BlockItem(block, setProperties(block, isNether));
     }
 
@@ -63,10 +64,6 @@ public class MoreWoodcutterItems {
             CRIMSON_WOODCUTTER,
             WARPED_WOODCUTTER
     );
-
-    public static Item createWoodcutterItem(String woodType) {
-        return new BlockItem(getWoodcutterBlockByWoodType(woodType), new Item.Properties());
-    }
 
     public static void registerItems() {
         for (Item woodcutterItem : more_woodcutter_items) {
