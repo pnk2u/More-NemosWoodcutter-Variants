@@ -12,15 +12,16 @@ public class MoreNemosWoodcutterVariants implements ModInitializer {
 
 	public static final String MOD_ID = "more_nemos_woodcutter_variants";
 	public static final String LEGACY_MOD_ID = "morenemoswoodcuttersvariants";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static String MOD_NAME;
+    public static Logger LOGGER;
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Nemo's Woodcutters come in all* colors!");
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresentOrElse(
 				modContainer -> MOD_NAME = modContainer.getMetadata().getName(),
 				() -> {throw new RuntimeException("Failed to get ModContainer for " + MOD_ID);});
+		LOGGER = LoggerFactory.getLogger(MOD_NAME.isEmpty() ? MOD_ID : MOD_NAME);
+        LOGGER.info("Nemo's Woodcutters come in all* colors!");
 		MoreWoodcutterBlocks.registerBlocks();
 		MoreWoodcutterItems.registerItems();
 	}
