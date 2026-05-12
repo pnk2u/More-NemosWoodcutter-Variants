@@ -1,4 +1,4 @@
-<!--publish=false-->
+<!--publish=true-->
 ### 2.0.0:
 - Fix _Woodcutter_ Variants' crafting recipes sometimes being overwritten by the default Woodcutter recipe
 - `1.21.4(-11)`:
