@@ -1,3 +1,14 @@
+<a name="2.1.0"></a>
+## 2.1.0:
+- `26.1`: Update to <ins>26.1</ins> (requires [`26.1.2-1.14.1`](https://modrinth.com/mod/nemos-woodcutter/version/26.1.2-1.14.1))
+
+<h2><sub><sub><sup><ins>Download 2.1.0 + 26.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Nemo's Woodcutter Variants 2.1.0 + 26.1" href="https://www.modrinth.com/mod/hoNwshLV/version/iI8er6zn">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>&#x200A;
+<a title="Download (Curseforge):&#10;2.1.0 + 26.1 - More Nemo's Woodcutter Variants" href="https://www.curseforge.com/minecraft/mc-mods/more-nemos-woodcutter-variants/files/8161632">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
 <a name="2.0.0"></a>
 ### 2.0.0:
 - Fix _Woodcutter_ Variants' crafting recipes sometimes being overwritten by the default Woodcutter recipe
