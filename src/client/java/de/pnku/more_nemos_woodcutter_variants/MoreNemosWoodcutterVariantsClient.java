@@ -9,7 +9,6 @@ import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.network.chat.Component;
-import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.level.block.Block;
 
 import static de.pnku.more_nemos_woodcutter_variants.block.MoreWoodcutterBlocks.more_woodcutter_blocks;
