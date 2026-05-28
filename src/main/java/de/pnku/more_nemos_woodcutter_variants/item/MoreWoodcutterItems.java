@@ -2,7 +2,7 @@ package de.pnku.more_nemos_woodcutter_variants.item;
 
 import de.pnku.more_nemos_woodcutter_variants.MoreNemosWoodcutterVariants;
 import de.pnku.more_nemos_woodcutter_variants.block.MoreWoodcutterBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -69,7 +69,7 @@ public class MoreWoodcutterItems {
         for (Item woodcutterItem : more_woodcutter_items) {
             String woodcutterName = ((MoreWoodcutterBlock) ((BlockItem) woodcutterItem).getBlock()).woodcutterWoodType + "_woodcutter";
             Registry.register(BuiltInRegistries.ITEM, MoreNemosWoodcutterVariants.withModId(woodcutterName), woodcutterItem);
-            ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addBefore(Items.CARTOGRAPHY_TABLE, woodcutterItem));
+            CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertBefore(Items.CARTOGRAPHY_TABLE, woodcutterItem));
             // mod_id change from morenemoswoodcuttervariants to more_nemos_woodcutter_variants - alias for backwards compatibility
                 BuiltInRegistries.ITEM.addAlias(MoreNemosWoodcutterVariants.withLegacyModId(woodcutterName), MoreNemosWoodcutterVariants.withModId(woodcutterName));
         }
