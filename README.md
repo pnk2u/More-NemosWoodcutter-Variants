@@ -1,8 +1,8 @@
 <a name="more-nemos-woodcutter-variants"></a>
 # <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; More Nemo's Woodcutter Variants <sub><a title="More Nemo's Woodcutter Variants on Modrinth" href="https://www.modrinth.com/mod/more-nemos-woodcutter-variants"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="More Nemo's Woodcutter Variants on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/more-nemos-woodcutter-variants"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
-> <img align=left height="153" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-NemosWoodcutter-Variants/pres/logo/logo_c.png">  
+> <img align=left height="153" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Nemos-Woodcutter-Variants/pres/logo/logo_c.png">  
 >  A mod adding wood variants for <ins>Nemo's Woodcutter</ins> (&#x200A;<sub><a title="Nemo's Woodcutter&#10;on Modrinth" href="https://modrinth.com/mod/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>&#x200A;&#x200A;&#x200A;<a title="Nemo's Woodcutter&#10;on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/nemos-woodcutter/"><img width=20 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a></sub>) Block. <br><br><br><br>  
->  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-NemosWoodcutter-Variants/pres/gh_desc_banner.gif"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
+>  <details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Nemos-Woodcutter-Variants/pres/gh_desc_banner.gif"><sup><br><!--CAPTION:PLACEHOLDER--></sup></details>  
 <br>  
 
 <a name="compatibility"></a>
@@ -14,7 +14,8 @@
       <td><strong>Minecraft</strong></td>
       <td>
         <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.20.1"><code>1.20.1</code></a><br>
-        <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10?g=1.21.11"><code>1.21.4</code>~<code>1.21.11</code></a>
+        <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10?g=1.21.11"><code>1.21.4</code>~<code>1.21.11</code></a><br>
+        <a href="https://modrinth.com/mod/more-nemos-woodcutter-variants/versions?g=26.1&g=26.2"><code>26.1(2)</code></a>
       </td>
     </tr>
   </thead>
